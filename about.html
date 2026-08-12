@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story | Book-ish &amp; Co.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="visually-hidden-focusable mc-skip-link" href="#main">Skip to content</a>
+
+  <nav class="navbar navbar-expand-lg mc-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand mc-brand" href="index.html">
+        <span class="mc-seal" aria-hidden="true">B&amp;Co</span>
+        <span class="mc-brand-text">Book-ish <span class="d-none d-sm-inline">&amp; Co.</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mc-nav-links mx-lg-auto mb-3 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="shelves.html">Shelves</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">Our Story</a></li>
+          <li class="nav-item"><a class="nav-link" href="newsletter.html">Newsletter</a></li>
+          <li class="nav-item"><a class="nav-link" href="visit.html">Visit</a></li>
+        </ul>
+
+        <button class="btn mc-btn-cart position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas">
+          <i class="bi bi-bag" aria-hidden="true"></i> Basket
+          <span id="cartCount" class="badge mc-badge-count d-none">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="mc-about-section py-5">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-5">
+            <div class="mc-library-card">
+              <p class="mc-library-card-label">Borrower&rsquo;s Record</p>
+              <dl class="mc-library-card-list">
+                <div><dt>Established</dt><dd>1987</dd></div>
+                <div><dt>Proprietor</dt><dd>E.&nbsp;Adeyemi</dd></div>
+                <div><dt>Specialty</dt><dd>Used &amp; rare, first editions</dd></div>
+                <div><dt>Volumes on hand</dt><dd>~14,000</dd></div>
+              </dl>
+              <p class="mc-library-card-stamp">DUE&nbsp;BACK&nbsp;&mdash;&nbsp;NEVER</p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <p class="mc-eyebrow">Our Story</p>
+            <h2 class="mc-h2">A shop for books that have already lived a little.</h2>
+            <p class="mc-body-text">Marginalia &amp; Co. started as a single cart of paperbacks outside a university gate. Nearly forty years on, we&rsquo;re still doing the same thing: rescuing good books from attics, estate sales, and closing shops, then putting them back into hands that will actually read them.</p>
+            <p class="mc-body-text">Every copy on our shelves has a little history &mdash; a pressed flower, a ticket stub, a name written in a steady hand on the first page. We think that&rsquo;s part of the story, not a flaw to price down.</p>
+            <a href="visit.html" class="mc-text-link">See our hours and location <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mc-footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <p class="mc-footer-brand">Marginalia &amp; Co.</p>
+          <p class="mc-footer-text">Independent booksellers dealing in used, rare, and out-of-print titles since 1987.</p>
+        </div>
+        <div class="col-md-4">
+          <p class="mc-footer-heading">Visit</p>
+          <address class="mc-footer-text mc-mono">14 Fenwick Lane<br>Ashcombe Market<br>Open Tue&ndash;Sun</address>
+        </div>
+        <div class="col-md-4">
+          <p class="mc-footer-heading">Hours</p>
+          <ul class="mc-hours mc-mono">
+            <li><span>Tue &ndash; Fri</span><span>10:00 &ndash; 19:00</span></li>
+            <li><span>Saturday</span><span>10:00 &ndash; 20:00</span></li>
+            <li><span>Sunday</span><span>12:00 &ndash; 17:00</span></li>
+            <li><span>Monday</span><span>Closed</span></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="mc-footer-rule">
+      <p class="mc-footer-bottom">&copy; <span id="year"></span> Marginalia &amp; Co.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
